@@ -7,10 +7,10 @@ import static com.mongodb.client.model.Filters.eq;
 public class readFromMongoDB {
     public static void main(String[] args) {
 
-        final String urlString = "mongodb+srv://natikah236:hamzahkamisah85@clusteratikah.voojb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-        MongoClient client = MongoClients.create(urlString);
-        MongoDatabase db = client.getDatabase("dbAtikah"); //database name
-        MongoCollection collect = db.getCollection("users"); // dbAtikah collection
+        final String urlString = /** connection string from mongoDB atlas **/;
+        MongoClient client = MongoClients.create("urlString");
+        MongoDatabase db = client.getDatabase("/** database name **/");
+        MongoCollection collect = db.getCollection("/** collection name **/");
 
         /**Find all document from a collection**/
 //        FindIterable<Document> allDocs = collect.find();

@@ -13,10 +13,10 @@ public class insertToMongoDB {
     public static void main(String[] args) {
 
         /** Connection with mongoDB Atlas **/
-        final String urlString = "mongodb+srv://natikah236:hamzahkamisah85@clusteratikah.voojb.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
-        MongoClient client = MongoClients.create(urlString);
-        MongoDatabase db = client.getDatabase("dbAtikah");
-        MongoCollection collect = db.getCollection("users");
+        final String urlString = /** connection string from mongoDB atlas **/;
+        MongoClient client = MongoClients.create("urlString");
+        MongoDatabase db = client.getDatabase("/** database name **/");
+        MongoCollection collect = db.getCollection("/** collection name **/");
 
          /** Put one document to database **/
         /* Document insertOne = new Document()
