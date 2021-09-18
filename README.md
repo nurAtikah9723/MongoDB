@@ -6,3 +6,4 @@ Perform CRUD with Java and MongoDB Atlas
 2. Then once complete register, you can follow <a href="https://www.youtube.com/watch?v=esKNjzDZItQ">this</a> tutorial to start creating you cluster that can connect with Java application or maybe with shell connection.
 3. Once done, copy your connection string from here to be put inside the java file later.
 <img src="img/connection string.png" alt="connection string" style="width:800px;height:400px;">
+4. Let’s move to Java programming. I am using IntelliJ as my IDE. Start download this project and open with your selected IDE. 
